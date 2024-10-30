@@ -1,0 +1,250 @@
+.right-panel {
+    float:right;
+    width:60%;
+    padding:5px
+}
+
+.left-panel {
+    float:right;
+    width:35%;
+    padding:5px;
+}
+
+.widget-configuration {
+    border: 3px dotted rgba(161, 201, 221, 0.75);
+    padding: 6px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.customize-option {
+    width: 44%;
+    height: 119px;
+    float: right;
+    padding: 13px;
+    background: rgba(255, 255, 255, 0.69);
+    border: 1px solid #f0f0f0;
+    margin: 0.5%;
+    box-shadow: 0px 1px 14px rgb(230, 230, 230);
+}
+
+.customize-option.colorset .dd {
+    outline: none;
+    margin-top: 10px;
+    width: 150px !important;
+}
+.customize-option.colorset .dd .ddTitle .ddTitleText img {
+    padding-right: 5px;
+    height: 30px;
+    width: 100%;
+}
+.customize-option.colorset .dd .ddChild {
+    z-index: 0 !important;
+}
+.customize-option.colorset .dd .ddChild ul li img {
+    width: 100%;
+    height: 30px;
+}
+
+
+.left-panel .customize-option {
+    width: 100%;
+}
+
+.customize-option .content-length {
+    float: right;
+    width: 20%;
+}
+
+.customize-option .congoro-customize-items-title {
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 2px;
+    color: #0073aa;
+    margin-bottom: 13px;
+}
+
+.customize-option .widget-titles {
+    width: 50%;
+    float: right;
+    text-align: right;
+    direction: rtl;
+}
+
+.customize-option .range-field {
+    text-align: center;
+    width: 100%;
+}
+
+.customize-option .range-field span {
+    font-size: 13px;
+    margin-left: 75px;
+}
+
+.customize-option .range-field span:first-child {
+    margin-left: 0px;
+    text-align: right;
+}
+
+.options-container {
+    overflow: hidden;
+}
+
+.congoro-widget-title {
+    color: rgb(0, 115, 170);
+    font-family: tahoma, serif !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-shadow: 1px 1px 3px rgb(250, 250, 250);
+}
+
+.congoro-widget-container {
+    direction: rtl;
+    text-align: right;
+}
+
+.congoro-customize-items-title {
+    font-weight: bolder;
+}
+
+
+.content-length {
+    float: right;
+    width: 70px;
+}
+
+.font-size-range-value {
+    text-align: center;
+    direction: ltr;
+}
+
+.font-size-range {
+    width: 100%;
+    direction: ltr;
+    margin-top: 12px;
+}
+
+.postbox .inside h2, .wrap [class$=icon32]+h2, .wrap h1, .wrap>h2:first-child {
+    padding: 9px 0px 4px 0;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 40px;
+    height: 31px;
+    float:right;
+    margin-left: 10px;
+}
+
+.remove-widget {
+    border-radius: 100%;
+    background: rgba(45, 139, 184, 0.68);
+    color: white;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+    text-shadow: none;
+    font-family: fantasy;
+    margin: 8px 0 0 8px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.title-bar {
+    overflow: hidden;
+}
+
+.widget-first-title {
+    float:right;
+}
+
+.remove-widget:hover {
+    background: rgba(45, 139, 184, 0.91);
+}
+
+p.submit {
+    padding: 0.5em 0;
+}
+
+input[type=checkbox]:checked:not(:disabled) ~ .lever:active::after, input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::after {
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 166, 154, 0.1)
+}
+
+input[type=checkbox]:not(:disabled) ~ .lever:active:after, input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.08)
+}
+
+.switch input[type=checkbox][disabled] + .lever {
+    cursor: default
+}
+
+.switch label input[type=checkbox][disabled] + .lever:after, .switch label input[type=checkbox][disabled]:checked + .lever:after {
+    background-color: #BDBDBD
+}
+
+
+
+.congoro-notice {
+    background: #fff;
+    border-right: 4px solid #ffb900;
+    -webkit-box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.congoro-warnings-title{
+    color:#ff8e48!important;
+}
+
+
+
+.congoro-font-family select {
+    margin-top: 10px;
+}
+.congoro-font-family .dd {
+    outline: none;
+    margin-top: 15px;
+    width: 100%!important;
+}
+.congoro-font-family .dd .divider {
+    border: 0;
+}
+.congoro-font-family .dd .ddTitle {
+    color: #000;
+    background: rgba(226, 226, 228, 0.36) repeat-x left top;
+}
+.congoro-font-family .dd .ddTitle .ddTitleText img {
+    padding-right: 15px;
+    width: 60%;
+    height: auto;
+}
+.congoro-font-family .dd .ddChild {
+
+    left: 0px;
+    right: -1px;
+    width: calc(100% + 2px);
+}
+.congoro-font-family .dd .ddChild li img {
+    padding: 0 7px 0;
+    width: 64%;
+}
+.congoro-font-family .dd .ddlabel {
+    color: #6a6a6a;
+    font-size: 13px;
+    margin-right: 11px;
+}
+.congoro-font-family .dd .ddTitleText {
+    padding: 5px 0px 5px 5px;
+}
+.congoro-font-family .ddcommon .ddArrow {
+    left: 8px;
+    right: inherit;
+}
+
+.hide{
+    display: none;
+}
